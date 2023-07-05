@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    appearance: none;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+input, button, a {
+    font-family: "proxima-nova",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+}
+
+.site-logo a img{
+    height: 3.7rem;
+    width: auto;
+}
+
+#site-navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#site-navigation nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#site-navigation .menu-wrapper{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+}
+
+.menu-wrapper li{
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.menu-wrapper li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
