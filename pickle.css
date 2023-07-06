@@ -77,6 +77,7 @@ header{
     text-decoration: none;
     color: #282B30;
     font-size: 16px;
+    cursor: pointer;
 }
 
 #menu-item-6{
@@ -121,9 +122,54 @@ header{
     width: 100%;
 }
 
+.submenu .menu-item-name{
+    font-size: 14px;
+}
+
+.submenu .menu-item-icon{
+    width: auto;
+}
+
+.submenu .menu-item-icon img{
+    width: 16px;
+    height: 16px;
+}
+
+.flex a{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+
+.submenu .inline{
+    flex-direction: column;
+}
+
 .submenu .menu-item-description{
     color: #686A6E;
     font-weight: normal;
+    font-size: 14.5px;
+    line-height: 20px;
+}
+
+#submenu-item-1b .menu-item-name{
+    color: #00BC8F;
+}
+
+#submenu-item-1c .menu-item-name{
+    color: #FEBE3C; 
+}
+
+#submenu-item-1d .menu-item-name{
+    color: #64CFFE;
+}
+
+#submenu-item-4c a{
+    width: 80%;
+}
+
+#menu-item-4 .menu-item-name{
     font-size: 15px;
 }
 
