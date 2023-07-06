@@ -16,10 +16,6 @@ input, button, a {
     font-weight: 600;
 }
 
-body{
-    background: rgba(0, 0, 0, 0.2);
-}
-
 .container-fluid{
     margin: 0;
     padding: 0;
@@ -171,6 +167,20 @@ header{
 
 #menu-item-4 .menu-item-name{
     font-size: 15px;
+}
+
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section-left{
+    width: 50%;
+}
+
+.first-section-left{
+    width: 50%;
 }
 
 /* .menu-wrapper li a:after{
