@@ -96,11 +96,26 @@ header{
     display: block;
 }
 
-#primary-menu-list>li:hover:before, #primary-menu-list>li.active:before {
+/* #primary-menu-list>li:hover:before, #primary-menu-list>li.active:before {
     transform: scaleX(1);
     transform-origin: left;
-}
+} */
 
+nav .item a::after {
+    content: "";
+    position: absolute;
+    background: cyan;
+    height: 10px;
+    width: 0;
+    transition: width 0.3s;
+    left: 0;
+    bottom: 0;
+}
+  
+nav .item a:hover::after {
+    width: 100%;
+}
+  
 .submenu{
     display: none;
     transition: 0.8s;    
