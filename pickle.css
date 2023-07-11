@@ -96,10 +96,10 @@ header{
     display: block;
 }
 
-/* #primary-menu-list>li:hover:before, #primary-menu-list>li.active:before {
+#primary-menu-list>li:hover:before, #primary-menu-list>li.active:before {
     transform: scaleX(1);
     transform-origin: left;
-} */
+}
 
 nav .item a::after {
     content: "";
